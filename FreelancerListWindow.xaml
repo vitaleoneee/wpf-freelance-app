@@ -1,0 +1,23 @@
+﻿<Window x:Class="FreelanceAplication.FreelancerListWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Фрілансери" Height="500" Width="800">
+    <ScrollViewer>
+        <StackPanel Background="#f4f4f4">
+            <Border Background="#4a90e2" Padding="20" Margin="20" CornerRadius="10">
+                <TextBlock Text="Список фрілансерів" FontSize="24" Foreground="White" HorizontalAlignment="Center"/>
+            </Border>
+            <StackPanel Orientation="Horizontal" Background="#333" Margin="10" HorizontalAlignment="Center">
+                <TextBlock Text="Профіль" Foreground="White" Margin="10,5" Cursor="Hand"
+                           MouseLeftButtonUp="ProfileTextBlock_MouseLeftButtonUp"/>
+                <TextBlock Text="Мої проєкти" Foreground="White" Margin="10,5" Cursor="Hand"
+                           MouseLeftButtonUp="ProjectsTextBlock_MouseLeftButtonUp"/>
+                <TextBlock Text="Фрілансери" Foreground="White" Margin="10,5" Cursor="Hand"/>
+
+                <TextBlock Text="Вийти" Foreground="White" Margin="10,5" Cursor="Hand"
+                           MouseLeftButtonUp="LogoutTextBlock_MouseLeftButtonUp"/>
+            </StackPanel>
+            <ItemsControl x:Name="FreelancersPanel" Margin="20"/>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

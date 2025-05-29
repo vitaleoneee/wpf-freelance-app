@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="FreelanceAplication.CreateProjectWindow" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="6.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAE=</HashCode>
+      <FileName>CreateProjectWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.237" Collapsed="true" />
+  </Class>
+  <Class Name="FreelanceAplication.CustomerProjectsWindow" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.25" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAk=</HashCode>
+      <FileName>CustomerProjectsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FreelanceAplication.CustomerWindow" BaseTypeListCollapsed="true">
+    <Position X="6" Y="0.5" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AIABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAEAg=</HashCode>
+      <FileName>CustomerWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.6" Collapsed="true" />
+  </Class>
+  <Class Name="FreelanceAplication.FreelancerListWindow" BaseTypeListCollapsed="true">
+    <Position X="8" Y="9" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBAAAAAAAAAAACAAAAAAAAAAAAAAIAAAAAAAAAEAg=</HashCode>
+      <FileName>FreelancerListWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.225" Collapsed="true" />
+  </Class>
+  <Class Name="FreelanceAplication.FreelancerProfileWindow" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="9.25" Width="7" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAFAAAAAAACAAQAAAAAAAAA=</HashCode>
+      <FileName>FreelancerProfileWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.942" Collapsed="true" />
+  </Class>
+  <Class Name="FreelanceAplication.FreelancerWindow" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="4" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAAEAg=</HashCode>
+      <FileName>FreelancerWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.242" Collapsed="true" />
+  </Class>
+  <Class Name="FreelanceAplication.LoginWindow" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="6.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACCAAQAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>LoginWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.258" Collapsed="true" />
+  </Class>
+  <Class Name="FreelanceAplication.ProjectDetailsWindow" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="3.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAgAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectDetailsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.392" Collapsed="true" />
+  </Class>
+  <Class Name="FreelanceAplication.ProjectsListWindow" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="0.5" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACAAAAAAAAAAAAAAAAAAAAAAAAIAACAhAAAAEAg=</HashCode>
+      <FileName>ProjectsListWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.3" Collapsed="true" />
+  </Class>
+  <Class Name="FreelanceAplication.RegisterWindow" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="3.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAkAAAAAACAAABgBAAAAAA=</HashCode>
+      <FileName>RegisterWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.408" Collapsed="true" />
+  </Class>
+  <Class Name="FreelanceAplication.RegisterDbManager">
+    <Position X="0.5" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegisterWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FreelanceAplication.Models.Project">
+    <Position X="0.5" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Project.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreelanceAplication.Models.User">
+    <Position X="3" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAgAAAEEQAAAAAAAAAAAAACAAAAIAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreelanceAplication.Data.DatabaseManager">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Repositories\IDatabaseHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
